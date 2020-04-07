@@ -1,4 +1,4 @@
-class Trie:
+class PrefixTrie:
 
     # {'a': {'p': {'p': {'#': 1}}}, 'h': {'a': {'h': {'a': {'#': 1}}}}}
     # 就这么一个结构
@@ -56,7 +56,7 @@ class Trie:
 
 
 if __name__ == '__main__':
-    trie = Trie()
+    trie = PrefixTrie()
     trie.insert('app')
     trie.insert('haha')
     trie.searchReg('.pp')
